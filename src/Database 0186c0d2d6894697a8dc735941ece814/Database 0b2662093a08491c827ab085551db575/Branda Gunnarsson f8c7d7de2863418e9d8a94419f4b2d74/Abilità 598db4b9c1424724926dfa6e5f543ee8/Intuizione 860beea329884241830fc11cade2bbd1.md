@@ -1,0 +1,11 @@
+# Intuizione
+
+Tags: ABI
+: No
+Bonus Competenza: 0
+Bonus Competenza di Riferimento: 1
+Modificatore: -5
+Modificatore  Abilità: 0
+Statistica di riferimento: Saggezza (Saggezza%200a3bd56da49c472c9f5018d9834e7aff.md)
+Tiro Salvezza: -5
+Valore di riferimento: 0
