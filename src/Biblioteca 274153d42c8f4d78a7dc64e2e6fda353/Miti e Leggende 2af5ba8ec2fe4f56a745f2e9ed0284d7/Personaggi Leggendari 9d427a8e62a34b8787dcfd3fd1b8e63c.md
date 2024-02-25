@@ -1,3 +1,0 @@
-# Personaggi Leggendari
-
-[Untitled Database](Personaggi%20Leggendari%209d427a8e62a34b8787dcfd3fd1b8e63c/Untitled%20Database%2015aa07aed3c74b7493ef695da0c7f995.csv)

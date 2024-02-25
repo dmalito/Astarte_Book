@@ -1,6 +1,0 @@
-# DONNA SCORPIONE, EROE O MINACCIA?
-
-Giornale: Il Pane Quotidiano
-Date: 20/11/2023
-
-![WhatsApp Image 2023-11-20 at 14.13.30.jpeg](DONNA%20SCORPIONE,%20EROE%20O%20MINACCIA%204e13bd033ee34ccdba9eaacfa1eb5915/WhatsApp_Image_2023-11-20_at_14.13.30.jpeg)

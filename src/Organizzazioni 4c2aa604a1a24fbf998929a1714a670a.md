@@ -1,3 +1,0 @@
-# Organizzazioni
-
-[Lista Organizzazioni](Organizzazioni%204c2aa604a1a24fbf998929a1714a670a/Lista%20Organizzazioni%206c3125f8072d475d92164bddc5d41d7d.csv)
