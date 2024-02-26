@@ -1,12 +1,21 @@
 \documentclass[12pt]{book}
-\begin{document}
+\usepackage{graphicx}
+\graphicspath{ {./source/} }
+\setkeys{Gin}{width=.8\linewidth} % set default image width
+\usepackage[pdfencoding=auto]{hyperref}
+\usepackage{grffile}
+\usepackage{placeins} %FloatBarrier
+\setcounter{tocdepth}{1} % set ToC depth
+%set language to italian
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 
-\section*{Changelog}
+\begin{document}
+%add ToC
+\tableofcontents
 
 \chapter{Personaggi}
-\input{source/Lista_Giocatori.tex}
-\chapter{Luoghi}
-\chapter{NPC}
-
+\input{Lista_Giocatori.tex}
 
 \end{document}
