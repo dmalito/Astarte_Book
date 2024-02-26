@@ -1,0 +1,25 @@
+﻿Statistica,Property,Valore,Modificatore,Tiro Salvezza,Bonus Competenza,Tags,Statistica di riferimento,Untitled Database,Bonus Competenza di Riferimento,Valore di riferimento,Link PG,Livello,Modificatore  Abilità
+Forza,No,10,0,0,1,STAT,Atletica (Atletica%20290bff5695cf4a24bdb749629627aeb3.md),,0,-5,[Nome PG] (%5BNome%20PG%5D%20bce274984e0046e6a59937d2b3982a25.md),1,-5
+Costituzione,No,10,0,0,1,STAT,,,,,[Nome PG] (%5BNome%20PG%5D%20bce274984e0046e6a59937d2b3982a25.md),1,
+Destrezza,No,10,0,0,1,STAT,"Acrobazia (Acrobazia%20709a3f217b7345ba938e33b6ed6fb3ff.md), Furtività (Furtivita%CC%80%201ec269a82e9543c688d6ec6f365d8dc7.md), Rapidità di mano (Rapidita%CC%80%20di%20mano%20849d3fc72462459eb4a4f6e6247edc85.md)",,"0,0,0","-5,-5,-5",[Nome PG] (%5BNome%20PG%5D%20bce274984e0046e6a59937d2b3982a25.md),1,-5
+Intelligenza,No,10,0,0,1,STAT,"Arcano (Arcano%20266ad578f544492bba09a4bb9f0ec73b.md), Indagare (Indagare%20a0cf65176f5e4fcba214279cf9ae62f9.md), Natura (Natura%20c93336594e224bd69be70041a8bdcdd4.md), Religione (Religione%20e82ec426deac43eea961a51272b9df80.md), Storia (Storia%200bef72eb7eb04dd681d2e8a5d6b8c5d3.md)",,"0,0,0,0,0","-5,-5,-5,-5,-5",[Nome PG] (%5BNome%20PG%5D%20bce274984e0046e6a59937d2b3982a25.md),1,-5
+Saggezza,No,10,0,0,1,STAT,"Addestrare animali (Addestrare%20animali%205c251f9a4aff48038c50cdb621417ec0.md), Intuizione (Intuizione%2044462dc6b2754c828da079606d653fe0.md), Medicina (Medicina%200937868aef834b559ab660cba0f20988.md), Percezione (Percezione%20ae5fb3c0cfcc40d78e146594bfe2d79e.md), Sopravvivenza (Sopravvivenza%2021fab82756f2478b804066a78225921a.md)",,"0,0,0,0,0","-5,-5,-5,-5,-5",[Nome PG] (%5BNome%20PG%5D%20bce274984e0046e6a59937d2b3982a25.md),1,-5
+Carisma,No,10,0,0,1,STAT,"Inganno (Inganno%20825b21715d6246019affadcbf097849e.md), Intimidire (Intimidire%2044bd347264d848a19d2686dab1826cc3.md), Intrattenere (Intrattenere%2009621cd961a14b8fb94f3afd950a521b.md), Persuasione (Persuasione%20f16407a9a04d4db38ccbf87876e816d3.md)",,"0,0,0,0","-5,-5,-5,-5",[Nome PG] (%5BNome%20PG%5D%20bce274984e0046e6a59937d2b3982a25.md),1,-5
+Furtività,No,,-5,-5,0,ABI,Destrezza (Destrezza%20dd5c170f077848d8a51fa1ae6a28e39f.md),,1,0,,,0
+Sopravvivenza,No,,-5,-5,0,ABI,Saggezza (Saggezza%20cc525e7f3fb8454981f4295705289102.md),,1,0,,,0
+Inganno,No,,-5,-5,0,ABI,Carisma (Carisma%2008e94f672d6d4d4487c8cbc9216510bd.md),,1,0,,,0
+Indagare,No,,-5,-5,0,ABI,Intelligenza (Intelligenza%2002560e777c434b27ab6ab667b0b75240.md),,1,0,,,0
+Natura,No,,-5,-5,0,ABI,Intelligenza (Intelligenza%2002560e777c434b27ab6ab667b0b75240.md),,1,0,,,0
+Persuasione,No,,-5,-5,0,ABI,Carisma (Carisma%2008e94f672d6d4d4487c8cbc9216510bd.md),,1,0,,,0
+Medicina,No,,-5,-5,0,ABI,Saggezza (Saggezza%20cc525e7f3fb8454981f4295705289102.md),,1,0,,,0
+Storia,No,,-5,-5,0,ABI,Intelligenza (Intelligenza%2002560e777c434b27ab6ab667b0b75240.md),,1,0,,,0
+Arcano,No,,-5,-5,0,ABI,Intelligenza (Intelligenza%2002560e777c434b27ab6ab667b0b75240.md),,1,0,,,0
+Atletica,No,,-5,-5,0,ABI,Forza (Forza%200ffe867e43d44916b313cfa5c7a17080.md),,1,0,,,0
+Intuizione,No,,-5,-5,0,ABI,Saggezza (Saggezza%20cc525e7f3fb8454981f4295705289102.md),,1,0,,,0
+Intimidire,No,,-5,-5,0,ABI,Carisma (Carisma%2008e94f672d6d4d4487c8cbc9216510bd.md),,1,0,,,0
+Percezione,No,,-5,-5,0,ABI,Saggezza (Saggezza%20cc525e7f3fb8454981f4295705289102.md),,1,0,,,0
+Intrattenere,No,,-5,-5,0,ABI,Carisma (Carisma%2008e94f672d6d4d4487c8cbc9216510bd.md),,1,0,,,0
+Acrobazia,Yes,,-5,-5,0,ABI,Destrezza (Destrezza%20dd5c170f077848d8a51fa1ae6a28e39f.md),,1,0,,,1
+Religione,No,,-5,-5,0,ABI,Intelligenza (Intelligenza%2002560e777c434b27ab6ab667b0b75240.md),,1,0,,,0
+Addestrare animali,No,,-5,-5,0,ABI,Saggezza (Saggezza%20cc525e7f3fb8454981f4295705289102.md),,1,0,,,0
+Rapidità di mano,No,,-5,-5,0,ABI,Destrezza (Destrezza%20dd5c170f077848d8a51fa1ae6a28e39f.md),,1,0,,,0
