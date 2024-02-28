@@ -4,9 +4,10 @@ input_files=$(ls database/Lista*.csv)
 for file in $input_files
 do
     echo "Processing $file"
-    output_file=$(echo $file | sed 's/database/source/' | sed 's/.csv/.tex/')
+    output_file=$(echo $file | sed 's/database/source_raw/' | sed 's/.csv/.tex/')
+    echo output_file: $output_file
     echo "" > ${output_file}
-    cat $file | awk -F, '{print "\\input{source/" $1 "}"}' >> $output_file
+    cat $file | awk -F, '{print "\\input{source_raw/" $1 "}"}' >> $output_file
     # add "\FloatBarrier" every other line
     #delete first three lines in the file
     #sed -i'' -e '1,1d' $output_file

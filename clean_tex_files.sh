@@ -2,7 +2,7 @@
 
 #get the files path from Lista_Giocatori.tex
 
-file="source/Lista_Giocatori.tex"
+file="source_raw/Lista_Giocatori.tex"
 
 # loop over the lines of the file
 while read line
