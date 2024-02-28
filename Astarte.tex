@@ -1,4 +1,4 @@
-\documentclass[12pt]{book}
+\documentclass{book}
 \usepackage{graphicx}
 \graphicspath{ {./source/} }
 \setkeys{Gin}{width=.8\linewidth} % set default image width
@@ -10,8 +10,15 @@
 \usepackage[italian]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\hypersetup{pdfborder=0 0 0} % no border for links
+%\def\subtitle#1{\gdef\@subtitle{#1}} % define the subtitle command
 
+\author{Davide Malito, Lorenzo Nigro}
+\title{Enciclopedia di Astarte \\ \small{\it{I personaggi di Astarte}}}
+%\subtitle{I personaggi di Astarte}
 \begin{document}
+\maketitle
 %add ToC
 \tableofcontents
 
