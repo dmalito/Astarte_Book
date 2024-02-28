@@ -1,0 +1,11 @@
+# Intimidire
+
+Tags: ABI
+: No
+Bonus Competenza: 0
+Bonus Competenza di Riferimento: 1
+Modificatore: -5
+Modificatore  Abilità: 0
+Statistica di riferimento: Carisma (Carisma%2091b4521e1ff64d669e74d3278e945838.md)
+Tiro Salvezza: -5
+Valore di riferimento: 0

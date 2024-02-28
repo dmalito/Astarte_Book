@@ -1,9 +1,10 @@
 #script to convert the markdown source files to tex
 
-basedir="./source/"
+input_dir="./database/"
+output_dir="./source/"
 # loop over the .md files in teh directory
-for file in $(ls ${basedir}/*.md)
+for file in $(ls ${input_dir}/*.md)
 do
   # convert the file to a .tex file
-  pandoc $file -o ${file%.md}.tex
+  pandoc $file -o ${output_dir}/${file%.md}.tex
 done

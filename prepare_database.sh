@@ -1,6 +1,6 @@
 #!/bin/bash
 # Define the source directory
-source_directory="./source/"
+source_directory="./database/"
 
 # Function to remove accents from a string
 remove_accents() {
