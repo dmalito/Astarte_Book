@@ -9,7 +9,7 @@ do
     cat $file | awk -F, '{print "\\input{source/" $1 "}"}' >> $output_file
     # add "\FloatBarrier" every other line
     #delete first three lines in the file
-    sed -i'' -e '1,3d' $file
+    #sed -i'' -e '1,1d' $output_file
     #substitue every space with underscore
-    sed -i'' -e  's/ /_/g' $file
+    sed -i'' -e  's/ /_/g' $output_file
 done
