@@ -9,3 +9,12 @@ do
   # convert the file to a .tex file
   pandoc $file -o ${output_file}
 done
+
+# move all the figures to the source directory
+for ext in png jpg pdf eps svg gif webp jpeg 
+do
+  for file in $(ls ${input_dir}/*.$ext)
+  do
+    mv $file ${output_dir}
+  done
+done
