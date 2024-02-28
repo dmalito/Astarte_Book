@@ -1,28 +1,43 @@
 \documentclass{book}
 \usepackage{graphicx}
-\graphicspath{ {./source/} }
-\setkeys{Gin}{width=.6\linewidth} % set default image width
+	\graphicspath{ {./source/} }
+	\setkeys{Gin}{width=.6\linewidth} % set default image width
 \usepackage[pdfencoding=auto]{hyperref}
-\usepackage{grffile}
+	\hypersetup{pdfborder=0 0 0} % no border for links
+\usepackage{grffile} % allow dots in filenames
 \usepackage{placeins} %FloatBarrier
 \setcounter{tocdepth}{1} % set ToC depth
 %set language to italian
 \usepackage[italian]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{hyperref}
-\hypersetup{pdfborder=0 0 0} % no border for links
-%\def\subtitle#1{\gdef\@subtitle{#1}} % define the subtitle command
+\usepackage{wrapfig}
+\usepackage{lettrine}
+\renewcommand{\familydefault}{pplj} % set font to Palatino
+%\usepackage[
+%final,
+%stretch=10,
+%protrusion=true,
+%tracking=true,
+%spacing=on,
+%kerning=on,
+%expansion=true]{microtype}
+
+
+
 
 \author{Davide Malito, Lorenzo Nigro}
 \title{Enciclopedia di Astarte \\ \small{\it{I personaggi di Astarte}}}
-%\subtitle{I personaggi di Astarte}
+
+
+
 \begin{document}
 \maketitle
 %add ToC
 \tableofcontents
 
 \chapter{Personaggi}
+\newpage
 \input{source/Lista_Giocatori.tex}
 
 \end{document}
