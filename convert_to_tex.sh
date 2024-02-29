@@ -16,6 +16,6 @@ for ext in png jpg pdf eps svg gif webp jpeg
 do
   for file in $(ls ${input_dir}/*.$ext)
   do
-    mv $file ${output_dir}
+    cp $file source/.
   done
 done
