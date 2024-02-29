@@ -22,7 +22,7 @@ patterns_to_remove = [ # Remove lines containing any of these strings
     'XP attuali',
     'Descrizione Generale',
     'caption',
-    'Età:', 'Razza:', 'Relazioni:', 'Alleati:', 'Nemesi:', 'Possedimenti importanti:', 'Tags:', 'Livello:', 'Info generali', 'Classe:', 'Alias:', 'di nascita:', 'Informazioni Generali',
+    'Età:', 'Razza:', 'Relazioni:', 'Alleati:', 'Nemesi:', 'Possedimenti importanti:', 'Tags:', 'Livello:', 'Info generali', 'Classe:', 'Alias:', 'di nascita:', 'Informazioni Generali', 'Professione:', 'Conosciuto come:'
 ]
 patterns_to_edit = [ # Replace the first string with the second string
     ('.webp', '.jpeg'),  
@@ -30,6 +30,7 @@ patterns_to_edit = [ # Replace the first string with the second string
     ('begin{figure}', 'begin{wrapfigure}{r}{.4\\textwidth}'),
     ('end{figure}', 'end{wrapfigure}'),
     ('includegraphics', 'includegraphics[width=0.4\\textwidth]'),
+    (' ,', ','),
 ]
 strings_delete_after = [ # Delete the lines after the first instance of any of these strings
     r'\subsection{A.',
@@ -139,6 +140,25 @@ for i, line in enumerate(lines):
         else:
             lines[start_index:start_index] = figures_list[0]
             break
+
+
+# Replace the first letter of the first section to use \lettrine
+#find the firs instance of \section
+start_index = next((i for i, line in enumerate(lines) if r'\section{' in line), None)
+#get the first word after \section
+if start_index is not None:
+    i = 1
+    first_line = []
+    search_index = start_index
+    while len(first_line) == 0:
+        search_index = start_index + i
+        first_line = re.findall(r'\w+', lines[search_index])
+        i = i + 1
+    first_word = first_line[0]
+    #replace first letter of first_word
+    first_word = first_word[0].replace(first_word[0],'\lettrine[lines=3]{'+first_word[0]+'}{}') 
+    #replace the first word of the line
+    lines[search_index] = first_word + lines[search_index][1:]
 
 # Apply modifications to lines based on patterns
 for i, line in enumerate(lines):
